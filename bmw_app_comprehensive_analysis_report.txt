@@ -1,0 +1,188 @@
+
+BMW CONNECTED APP REVIEW ANALYSIS - COMPREHENSIVE REPORT
+Generated on: 2025-02-13 15:46:27
+
+==================================================
+1. EXECUTIVE SUMMARY
+==================================================
+
+Analysis Period: 2020-07-27 to 2025-02-11
+Total Reviews: 500
+Overall Rating: 3.42/5.0
+
+Sentiment Distribution:
+---------------------
+sentiment
+Negative    240
+Positive    196
+Neutral      64
+
+Rating Distribution:
+-----------------
+score
+1    127
+2     40
+3     44
+4     75
+5    214
+
+
+==================================================
+2. SENTIMENT ANALYSIS
+==================================================
+
+Average Rating by Sentiment:
+-------------------------
+sentiment
+Negative    2.06
+Neutral     4.12
+Positive    4.85
+
+Example Reviews by Sentiment:
+--------------------------
+
+Positive Reviews (Top 3):
+Rating: 5/5 | Date: 2025-01-11
+Content: Perfect
+
+Rating: 5/5 | Date: 2024-06-20
+Content: great app
+
+Rating: 5/5 | Date: 2024-10-23
+Content: Good business
+
+
+Negative Reviews (Top 3):
+Rating: 5/5 | Date: 2024-02-04
+Content: It would be so nice if I could set the units in the app. I use my phone in English but I leave in a km county and now the app shows me miles instead of kilometers.
+
+Rating: 1/5 | Date: 2022-01-20
+Content: At first it was not possible to register, the app crashed constantly to the start page. Then, eventually, the program started working, more or less stably for a couple of months, but now it crashes several times a day. It seems from reviews that not only I have this issue with the application. What amazes me is the lack of action by developers.
+
+Rating: 3/5 | Date: 2021-05-10
+Content: Please add the option to change units to metric, and I'm missing eDrive statistics that was available in the BMW Connected app.
+
+
+Neutral Reviews (Top 3):
+Rating: 1/5 | Date: 2022-06-18
+Content: Doesnt send location to the car
+
+Rating: 5/5 | Date: 2025-01-03
+Content: What can I say.....
+
+Rating: 5/5 | Date: 2021-10-21
+Content: "It's not bad at all."
+
+
+
+==================================================
+3. TOPIC ANALYSIS
+==================================================
+
+Most Common Topics:
+----------------
+topics
+UI/UX              162
+Other              123
+ Vehicle Status     98
+ Other              75
+ Authentication     69
+Performance         67
+ Connectivity       53
+Authentication      44
+ Updates            39
+ Performance        39
+
+Example Reviews by Top Topics:
+--------------------------
+
+UI/UX:
+Rating: 5/5 | Date: 2024-02-04
+Content: It would be so nice if I could set the units in the app. I use my phone in English but I leave in a km county and now the app shows me miles instead of kilometers.
+
+Rating: 2/5 | Date: 2021-09-24
+Content: the app says that the car is unlocked even though it is locked. I think there might be a problem with the app. worked fine before but after I got it the car checked, the app is not working properly
+
+Rating: 1/5 | Date: 2023-05-28
+Content: App must be programmed by a cheap company. Tyre pressure is still only visible in psi, not in bar. The logging out issue is still present every once and awhile. Credentials are required even after setting a pin. Even Renault has a better app then BMW.
+
+
+Other:
+Rating: 3/5 | Date: 2021-05-10
+Content: Please add the option to change units to metric, and I'm missing eDrive statistics that was available in the BMW Connected app.
+
+Rating: 5/5 | Date: 2025-01-11
+Content: Perfect
+
+Rating: 5/5 | Date: 2024-06-20
+Content: great app
+
+
+ Vehicle Status:
+Rating: 5/5 | Date: 2024-02-04
+Content: It would be so nice if I could set the units in the app. I use my phone in English but I leave in a km county and now the app shows me miles instead of kilometers.
+
+Rating: 1/5 | Date: 2022-01-20
+Content: At first it was not possible to register, the app crashed constantly to the start page. Then, eventually, the program started working, more or less stably for a couple of months, but now it crashes several times a day. It seems from reviews that not only I have this issue with the application. What amazes me is the lack of action by developers.
+
+Rating: 1/5 | Date: 2022-06-18
+Content: Doesnt send location to the car
+
+
+ Other:
+Rating: 3/5 | Date: 2021-05-10
+Content: Please add the option to change units to metric, and I'm missing eDrive statistics that was available in the BMW Connected app.
+
+Rating: 1/5 | Date: 2023-05-28
+Content: App must be programmed by a cheap company. Tyre pressure is still only visible in psi, not in bar. The logging out issue is still present every once and awhile. Credentials are required even after setting a pin. Even Renault has a better app then BMW.
+
+Rating: 5/5 | Date: 2022-07-12
+Content: Great app, can see cars location, status, fuel, milage, vin, and even do remote functions like fan circulation, lock the car, flash the lights etc. Best part is its all free
+
+
+ Authentication:
+Rating: 5/5 | Date: 2024-02-04
+Content: It would be so nice if I could set the units in the app. I use my phone in English but I leave in a km county and now the app shows me miles instead of kilometers.
+
+Rating: 1/5 | Date: 2022-01-20
+Content: At first it was not possible to register, the app crashed constantly to the start page. Then, eventually, the program started working, more or less stably for a couple of months, but now it crashes several times a day. It seems from reviews that not only I have this issue with the application. What amazes me is the lack of action by developers.
+
+Rating: 2/5 | Date: 2022-03-27
+Content: App not functioning perfectly. After the connection that takes place without any problems, it does not update the vehicle's status and real-time position, producing a late and fake remote check. I believe the developers can resolve this problem if it depends on them.
+
+
+
+==================================================
+4. CRITICAL ISSUES
+==================================================
+
+Critical Issues Overview:
+----------------------
+Total Critical Reviews: 167
+Percentage of Total: 33.4%
+
+Representative Critical Issues:
+---------------------------
+
+1-Star Reviews:
+Rating: 1/5 | Date: 2022-01-20
+Content: At first it was not possible to register, the app crashed constantly to the start page. Then, eventually, the program started working, more or less stably for a couple of months, but now it crashes several times a day. It seems from reviews that not only I have this issue with the application. What amazes me is the lack of action by developers.
+
+Rating: 1/5 | Date: 2022-06-18
+Content: Doesnt send location to the car
+
+Rating: 1/5 | Date: 2023-05-28
+Content: App must be programmed by a cheap company. Tyre pressure is still only visible in psi, not in bar. The logging out issue is still present every once and awhile. Credentials are required even after setting a pin. Even Renault has a better app then BMW.
+
+
+2-Star Reviews:
+Rating: 2/5 | Date: 2022-03-27
+Content: App not functioning perfectly. After the connection that takes place without any problems, it does not update the vehicle's status and real-time position, producing a late and fake remote check. I believe the developers can resolve this problem if it depends on them.
+
+Rating: 2/5 | Date: 2021-09-24
+Content: the app says that the car is unlocked even though it is locked. I think there might be a problem with the app. worked fine before but after I got it the car checked, the app is not working properly
+
+Rating: 2/5 | Date: 2023-01-18
+Content: I previously used the app on my iphone. Then I installed the app on my Google pixel 7 as I recently changed devices. It doesn't allow me to login as it keeps saying "incorrect credentials". Even tried the forgot password and it sends no links. I retried to login on my old iphone with the same info and it works perfectly. I even changed the password on my iphone and it works. But it's not allowing me to login on the android with same same credentials error. Is this a common issue for Android?
+
+
