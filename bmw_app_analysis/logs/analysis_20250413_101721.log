@@ -1,0 +1,11 @@
+2025-04-13 10:20:22,305 - INFO - Starting from user-selected batch 2
+2025-04-13 10:20:22,313 - INFO - Starting step-by-step analysis from batch 2/3670
+2025-04-13 10:20:22,314 - INFO - Processing batch 2/3670 (reviews 6-10)
+2025-04-13 10:22:39,237 - INFO - Saved checkpoint to bmw_app_analysis/checkpoints/batch_2_of_3670.csv
+2025-04-13 10:22:42,234 - INFO - Processing paused after batch 2. Run again to continue from batch 3.
+2025-04-13 10:23:27,524 - INFO - Starting from user-selected batch 2
+2025-04-13 10:23:32,786 - INFO - Starting step-by-step analysis from batch 2/19
+2025-04-13 10:23:32,787 - INFO - Processing batch 2/19 (reviews 1001-2000)
+2025-04-13 16:28:39,516 - WARNING - Skipping empty review at index 1908
+2025-04-13 17:05:26,286 - INFO - Saved checkpoint to bmw_app_analysis/checkpoints/batch_2_of_19.csv
+2025-04-13 17:07:07,803 - INFO - Processing paused after batch 2. Run again to continue from batch 3.
