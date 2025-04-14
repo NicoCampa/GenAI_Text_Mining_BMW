@@ -9,3 +9,13 @@
 2025-04-13 16:28:39,516 - WARNING - Skipping empty review at index 1908
 2025-04-13 17:05:26,286 - INFO - Saved checkpoint to bmw_app_analysis/checkpoints/batch_2_of_19.csv
 2025-04-13 17:07:07,803 - INFO - Processing paused after batch 2. Run again to continue from batch 3.
+2025-04-13 18:44:14,620 - INFO - Starting from user-selected batch 3
+2025-04-13 18:44:14,632 - INFO - Starting step-by-step analysis from batch 3/19
+2025-04-13 18:44:14,633 - INFO - Processing batch 3/19 (reviews 2001-3000)
+2025-04-14 01:26:44,985 - INFO - Saved checkpoint to bmw_app_analysis/checkpoints/batch_3_of_19.csv
+2025-04-14 01:27:17,523 - INFO - Processing paused after batch 3. Run again to continue from batch 4.
+2025-04-14 01:31:52,291 - INFO - Starting from user-selected batch 4
+2025-04-14 01:31:52,308 - INFO - Starting step-by-step analysis from batch 4/19
+2025-04-14 01:31:52,308 - INFO - Processing batch 4/19 (reviews 3001-4000)
+2025-04-14 08:13:14,718 - INFO - Saved checkpoint to bmw_app_analysis/checkpoints/batch_4_of_19.csv
+2025-04-14 11:17:15,986 - INFO - Processing paused after batch 4. Run again to continue from batch 5.
