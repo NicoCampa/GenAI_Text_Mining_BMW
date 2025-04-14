@@ -1,0 +1,5 @@
+# requirements.txt
+pandas>=2.0.0
+google-play-scraper>=0.1.2
+tqdm>=4.65.0
+ipython>=8.12.0  # Optional, for display functionality in notebooks
