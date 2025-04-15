@@ -1,0 +1,5 @@
+2025-04-15 17:00:13,796 - INFO - Starting from user-selected batch 6
+2025-04-15 17:00:13,812 - INFO - Starting step-by-step analysis from batch 6/19
+2025-04-15 17:00:13,812 - INFO - Processing batch 6/19 (reviews 5001-6000)
+2025-04-15 18:47:44,420 - INFO - Saved checkpoint to bmw_app_analysis\checkpoints\batch_6_of_19.csv
+2025-04-15 18:47:49,102 - INFO - Processing paused after batch 6. Run again to continue from batch 7.

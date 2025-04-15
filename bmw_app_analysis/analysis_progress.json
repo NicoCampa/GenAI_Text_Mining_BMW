@@ -1,8 +1,8 @@
 {
-    "last_completed_batch": 5,
+    "last_completed_batch": 6,
     "total_batches": 19,
     "batch_size": 1000,
     "total_reviews": 18350,
     "model_name": "gemma3:12b",
-    "last_processed_time": "2025-04-14 17:34:55"
+    "last_processed_time": "2025-04-15 18:47:44"
 }
