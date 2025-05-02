@@ -1,0 +1,9 @@
+2025-05-02 12:05:44,426 - INFO - Starting from user-selected batch 15
+2025-05-02 12:05:44,426 - INFO - Starting step-by-step analysis from batch 15/19
+2025-05-02 12:05:44,426 - INFO - Processing batch 15/19 (reviews 14001-15000)
+2025-05-02 13:54:21,985 - INFO - Saved checkpoint to bmw_app_analysis\checkpoints\batch_15_of_19.csv
+2025-05-02 14:25:07,477 - INFO - Processing batch 16/19 (reviews 15001-16000)
+2025-05-02 16:12:54,581 - INFO - Saved checkpoint to bmw_app_analysis\checkpoints\batch_16_of_19.csv
+2025-05-02 16:13:15,121 - INFO - Processing batch 17/19 (reviews 16001-17000)
+2025-05-02 18:00:54,246 - INFO - Saved checkpoint to bmw_app_analysis\checkpoints\batch_17_of_19.csv
+2025-05-02 18:00:57,849 - INFO - Processing paused after batch 17. Run again to continue from batch 18.
