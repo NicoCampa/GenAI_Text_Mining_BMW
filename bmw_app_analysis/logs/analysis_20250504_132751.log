@@ -1,0 +1,27 @@
+2025-05-04 13:27:54,766 - INFO - Starting from user-selected batch 18
+2025-05-04 13:27:54,766 - INFO - Starting step-by-step analysis from batch 18/19
+2025-05-04 13:27:54,766 - INFO - Processing batch 18/19 (reviews 17001-18000)
+2025-05-04 15:15:20,647 - INFO - Saved checkpoint to bmw_app_analysis\checkpoints\batch_18_of_19.csv
+2025-05-04 15:15:24,110 - INFO - Processing batch 19/19 (reviews 18001-18350)
+2025-05-04 15:52:35,655 - INFO - Saved checkpoint to bmw_app_analysis\checkpoints\batch_19_of_19.csv
+2025-05-04 15:52:35,655 - INFO - All batches completed. Merging results...
+2025-05-04 15:52:35,687 - INFO - Added bmw_app_analysis\checkpoints\batch_10_of_19.csv to merge list (1000 rows)
+2025-05-04 15:52:35,715 - INFO - Added bmw_app_analysis\checkpoints\batch_11_of_19.csv to merge list (1000 rows)
+2025-05-04 15:52:35,742 - INFO - Added bmw_app_analysis\checkpoints\batch_12_of_19.csv to merge list (1000 rows)
+2025-05-04 15:52:35,767 - INFO - Added bmw_app_analysis\checkpoints\batch_13_of_19.csv to merge list (1000 rows)
+2025-05-04 15:52:35,799 - INFO - Added bmw_app_analysis\checkpoints\batch_14_of_19.csv to merge list (1000 rows)
+2025-05-04 15:52:35,827 - INFO - Added bmw_app_analysis\checkpoints\batch_15_of_19.csv to merge list (1000 rows)
+2025-05-04 15:52:35,862 - INFO - Added bmw_app_analysis\checkpoints\batch_16_of_19.csv to merge list (1000 rows)
+2025-05-04 15:52:35,894 - INFO - Added bmw_app_analysis\checkpoints\batch_17_of_19.csv to merge list (1000 rows)
+2025-05-04 15:52:35,926 - INFO - Added bmw_app_analysis\checkpoints\batch_18_of_19.csv to merge list (1000 rows)
+2025-05-04 15:52:35,942 - INFO - Added bmw_app_analysis\checkpoints\batch_19_of_19.csv to merge list (350 rows)
+2025-05-04 15:52:35,990 - INFO - Added bmw_app_analysis\checkpoints\batch_1_of_19.csv to merge list (1000 rows)
+2025-05-04 15:52:36,038 - INFO - Added bmw_app_analysis\checkpoints\batch_2_of_19.csv to merge list (1000 rows)
+2025-05-04 15:52:36,056 - INFO - Added bmw_app_analysis\checkpoints\batch_3_of_19.csv to merge list (1000 rows)
+2025-05-04 15:52:36,087 - INFO - Added bmw_app_analysis\checkpoints\batch_4_of_19.csv to merge list (1000 rows)
+2025-05-04 15:52:36,118 - INFO - Added bmw_app_analysis\checkpoints\batch_5_of_19.csv to merge list (1000 rows)
+2025-05-04 15:52:36,145 - INFO - Added bmw_app_analysis\checkpoints\batch_6_of_19.csv to merge list (1000 rows)
+2025-05-04 15:52:36,166 - INFO - Added bmw_app_analysis\checkpoints\batch_7_of_19.csv to merge list (1000 rows)
+2025-05-04 15:52:36,197 - INFO - Added bmw_app_analysis\checkpoints\batch_8_of_19.csv to merge list (1000 rows)
+2025-05-04 15:52:36,238 - INFO - Added bmw_app_analysis\checkpoints\batch_9_of_19.csv to merge list (1000 rows)
+2025-05-04 15:52:36,525 - INFO - Saved consolidated results with 18350 reviews to bmw_app_analysis\results\bmw_reviews_consolidated_20250504_155236.csv
