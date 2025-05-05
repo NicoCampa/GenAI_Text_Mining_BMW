@@ -78,10 +78,12 @@ def evaluate_translations(input_file, output_file, model='llama3.1:8b', max_retr
         return None
     
     def evaluate_single(original, translation, language, label):
-        prompt = f"""Evaluate this translation from {language} to English:
+        prompt = f"""Evaluate this translation of a MyBMW app review from {language} to English:
 
 Original ({language}): {original}
 Translation: {translation}
+
+These are user reviews about the MyBMW mobile application, which may contain automotive terminology, app features, and user experience feedback.
 
 Rate on a scale of 1-5 based on these criteria:
 1: VERY POOR - Completely incorrect or incomprehensible translation
