@@ -78,23 +78,65 @@ def evaluate_translations(input_file, output_file, model='llama3.1:8b', max_retr
         return None
     
     def evaluate_single(original, translation, language, label):
-        prompt = f"""Evaluate this translation of a MyBMW app review from {language} to English:
+        prompt = f"""You are an expert at evaluating translations of BMW app reviews. Evaluate this translation from {language} to English:
 
 Original ({language}): {original}
 Translation: {translation}
 
-These are user reviews about the MyBMW mobile application, which may contain automotive terminology, app features, and user experience feedback.
+CLASSIFICATION TASK:
+Rate the quality of this translation on a scale of 1-5.
 
-Rate on a scale of 1-5 based on these criteria:
-1: VERY POOR - Completely incorrect or incomprehensible translation
-2: POOR - Major meaning errors or serious mistranslations
-3: FAIR - Conveys basic meaning but has notable accuracy or fluency issues
-4: GOOD - Mostly accurate with only minor issues in wording or naturalness
-5: EXCELLENT - Perfect translation that captures meaning, tone, and reads naturally
+CONTEXT:
+These are user reviews about the MyBMW mobile application, which may contain:
+- Automotive terminology and BMW-specific features
+- Technical terms related to vehicle controls, connectivity, and functionality
+- App feature names and UI elements
+- User experience feedback and sentiment
 
-IMPORTANT: Use the FULL RANGE of scores (1-5). Don't hesitate to give 1s for poor translations or 5s for excellent ones.
+DETAILED SCORING GUIDELINES:
+1: VERY POOR
+  * Completely incorrect or incomprehensible translation
+  * Critical BMW terminology or feature names mistranslated
+  * Meaning is entirely lost or severely distorted
+  * Would completely mislead product teams about user feedback
 
-Focus on: accuracy, preservation of tone, natural English expression, and completeness.
+2: POOR
+  * Major meaning errors or serious mistranslations
+  * Important BMW features or app functions incorrectly translated
+  * Significant fluency problems making the text difficult to understand
+  * Key user feedback points obscured or misrepresented
+
+3: FAIR
+  * Conveys basic meaning but has notable accuracy or fluency issues
+  * Some BMW-specific or technical terms translated inconsistently
+  * Grammatical problems that affect clarity but main points come through
+  * General sentiment preserved but nuance is lost
+
+4: GOOD
+  * Mostly accurate with only minor issues in wording or naturalness
+  * BMW features and terminology correctly translated
+  * Maintains the original tone and intent of the user's feedback
+  * Minor fluency issues that don't significantly affect understanding
+
+5: EXCELLENT
+  * Perfect translation that captures meaning, tone, and technical accuracy
+  * BMW-specific terminology correctly and consistently translated
+  * Reads naturally in English while preserving the original meaning
+  * Maintains all nuances of user feedback and sentiment
+
+IMPORTANT DECISION RULES:
+- Technical accuracy of BMW/automotive terms should be weighted heavily
+- Preservation of user sentiment is critical for understanding feedback
+- When a review mentions specific features/functions, their correct translation is essential
+- If key points about app functionality are mistranslated, score should be 3 or lower
+- Use the FULL RANGE of scores (1-5) - don't hesitate to give 1s or 5s when warranted
+
+EXAMPLES:
+- If vehicle status terms (charge level, range, etc.) are mistranslated → score lower
+- If user sentiment about the app is preserved but grammar is awkward → score 3-4
+- If BMW-specific terminology is correctly translated but text flow is slightly unnatural → score 4
+- If the translation captures both technical content and tone perfectly → score 5
+- If the meaning is completely changed or incomprehensible → score 1
 
 Your response must be ONLY a single digit: 1, 2, 3, 4, or 5."""
 
