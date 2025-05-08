@@ -489,6 +489,15 @@ if 'appVersion' in df.columns:
     if selected_version != 'All':
         filtered_df = filtered_df[filtered_df['version_str'] == selected_version]
 
+# Add author information in the sidebar
+st.sidebar.markdown("""
+<div style="margin-top: 40px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.1); text-align: center;">
+    <p style="opacity: 0.7; font-size: 0.9rem;">Developed by</p>
+    <p style="color: #4299E1; font-weight: 600; font-size: 1.1rem; margin: 5px 0;">Nicolò Campagnoli</p>
+    <p style="opacity: 0.7; font-size: 0.8rem;">LMU Munich & BMW Group</p>
+</div>
+""", unsafe_allow_html=True)
+
 # Overview metrics section
 # Removing the section divider above Overview
 # st.markdown('<div class="section-divider"></div>', unsafe_allow_html=True)
