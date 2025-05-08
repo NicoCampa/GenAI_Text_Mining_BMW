@@ -1,45 +1,106 @@
-# GenAI Text Mining - BMW Analysis
+# BMW App Review Analysis
 
-A text mining and analysis application for BMW-related content leveraging modern AI technologies.
+A comprehensive system for analyzing and visualizing user reviews of the MyBMW app using AI-powered text mining and sentiment analysis.
 
 ## Overview
 
-This project provides tools for analyzing text data related to BMW, including sentiment analysis, topic modeling, and key insights extraction. It uses advanced NLP and GenAI techniques to process and visualize BMW-related content from various sources.
+This project analyzes BMW app reviews to extract actionable insights through advanced text classification and visualization. It processes user feedback through multiple classification dimensions to identify patterns, issues, and opportunities for improvement in the MyBMW app experience.
+
+## Components
+
+This project consists of two main components:
+
+1. **Classification Engine** (`classification.py`): Processes app reviews through multiple AI-powered classification dimensions using Ollama's Gemma 3:12b model.
+
+2. **Interactive Dashboard** (`dashboard.py`): A Streamlit-based visualization interface that presents the analysis results in an interactive, filterable dashboard.
 
 ## Features
 
-- Sentiment analysis of BMW-related content
-- Topic identification and clustering
-- Key insights extraction
-- Interactive data visualization
-- Report generation
+### Classification Capabilities
+- **Sentiment Analysis**: Categorizes reviews as positive, negative, or neutral
+- **Topic Identification**: Tags reviews with relevant topics (UI/UX, performance, connectivity, etc.)
+- **Vehicle Type Detection**: Identifies if the review relates to electric/hybrid or combustion vehicles
+- **User Experience Classification**: Determines if the user is new or experienced
+- **Usage Profile Analysis**: Classifies users as power users or casual users
+- **Pain Point Detection**: Identifies reviews mentioning specific problems
+- **Feature Request Identification**: Detects when users are requesting new features
+- **Competitor Analysis**: Extracts mentions of competing car brands
+
+### Dashboard Visualizations
+- Rating distribution and sentiment breakdown
+- Topic prevalence and sentiment by topic
+- Sentiment trends across app versions
+- Language-specific analysis
+- Competitor mention analysis
+- Feature request insights
+- Exportable filtered data
 
 ## Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/GenAI_Text_Mining_BMW.git
-cd GenAI_Text_Mining_BMW
+git clone https://github.com/yourusername/bmw-app-analysis.git
+cd bmw-app-analysis
 
 # Install dependencies
 pip install -r requirements.txt
+
+# Install Ollama (required for classification)
+# Follow instructions at https://ollama.ai/
+
+# Pull the Gemma model
+ollama pull gemma3:12b
 ```
 
 ## Usage
 
-[Add specific usage instructions based on your implementation]
+### Running the Classification
 
-## Technology Stack
+```bash
+# Process reviews through the classification engine
+python classification.py
+```
 
-- Python for backend processing
-- NLP libraries (NLTK, spaCy, etc.)
-- Generative AI models
-- Data visualization tools
-- [Add other technologies used in your project]
+The classification script:
+- Processes reviews in configurable batch sizes
+- Supports resuming from previous runs
+- Creates checkpoints for resilience
+- Generates consolidated results in CSV format
+
+### Launching the Dashboard
+
+```bash
+# Start the Streamlit dashboard
+streamlit run dashboard.py
+```
+
+The dashboard provides:
+- Interactive filtering by date, language, rating, and app version
+- Multiple visualizations across different dimensions
+- Exportable filtered data
+- Actionable insights based on the analysis
 
 ## Project Structure
 
-[Brief description of your project's structure]
+```
+bmw_app_analysis/
+├── checkpoints/        # Incremental processing checkpoints
+├── results/            # Final analysis results
+├── logs/               # Processing logs
+├── translations/       # Contains translated reviews
+├── classification.py   # Classification engine
+├── dashboard.py        # Streamlit visualization dashboard
+└── requirements.txt    # Project dependencies
+```
+
+## Technologies
+
+- Python 3.8+
+- Ollama with Gemma 3:12b model for text classification
+- Pandas for data processing
+- Streamlit for interactive dashboard
+- Plotly for data visualization
+- tqdm for progress tracking
 
 ## License
 
