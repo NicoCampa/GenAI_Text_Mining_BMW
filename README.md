@@ -102,6 +102,6 @@ bmw_app_analysis/
 - Plotly for data visualization
 - tqdm for progress tracking
 
-## License
+## Academic Context
 
-[Specify your license]
+This project was developed as part of a university project at Ludwig Maximilian University of Munich (LMU) in collaboration with BMW Group. It represents an academic exploration of applied AI and text mining techniques to improve customer experience insights for automotive applications.
