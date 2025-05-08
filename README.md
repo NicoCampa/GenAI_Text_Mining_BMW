@@ -2,6 +2,9 @@
 
 A comprehensive system for analyzing and visualizing user reviews of the MyBMW app using AI-powered text mining and sentiment analysis.
 
+![MyBMW App Google Play](bmw_app_analysis/images/myBMWpage.png)
+*The MyBMW app on Google Play Store, the source of reviews analyzed in this project.*
+
 ## Overview
 
 This project analyzes BMW app reviews to extract actionable insights through advanced text classification and visualization. It processes user feedback through multiple classification dimensions to identify patterns, issues, and opportunities for improvement in the MyBMW app experience.
@@ -67,6 +70,9 @@ The classification script:
 - Creates checkpoints for resilience
 - Generates consolidated results in CSV format
 
+![Topic Analysis Card](bmw_app_analysis/images/TopicCard.png)
+*Example output: Detailed topic-specific analysis showing sentiment breakdowns, issues, and feature requests for authentication.*
+
 ### Launching the Dashboard
 
 ```bash
@@ -80,6 +86,9 @@ The dashboard provides:
 - Exportable filtered data
 - Actionable insights based on the analysis
 
+![Dashboard Screenshot](bmw_app_analysis/images/Dashboard.png)
+*The interactive Streamlit dashboard showing sentiment analysis, rating distribution, and topic trends across app versions.*
+
 ## Project Structure
 
 ```
@@ -88,6 +97,7 @@ bmw_app_analysis/
 ├── results/            # Final analysis results
 ├── logs/               # Processing logs
 ├── translations/       # Contains translated reviews
+├── images/             # Screenshots and visualizations
 ├── classification.py   # Classification engine
 ├── dashboard.py        # Streamlit visualization dashboard
 └── requirements.txt    # Project dependencies
